@@ -84,6 +84,41 @@ After installation, We need to do IP configuration to access this virtual Machin
 Administrator
 Noob@12345678
 
+Now we will configure the network settings of the server. Click on the network icon at the bottom right of the screen. Then click the “Network & Internet settings” button.
+
+
+Then click on the “Ethernet” tab.
+
+
+Click on “Change adapter options”.
+
+
+Right-click on an adapter and click “Properties”.
+
+
+Double-click on “Internet Protocol Version 4 (TCP/IPv4)”.
+
+
+We fill in the IP addresses using the information written at the bottom of the screen. Enter the DNS addresses 1.1.1.1 and 8.8.8.8 and click the “OK” button.
+
+
+We are now connected to the internet.
+
+
+Now we will make the necessary settings to make a remote desktop. At the start, we will write “remote desktop settings”. It’s okay if no Turkish characters appear; type “remote table,” and you will see it in the results.
+
+
+We click on the switch that says “Off” to enable remote desktop. We continue the warning by saying, “Confirm”.
+
+
+Click on “Advanced settings” from the same screen.
+
+
+We’re removing the box in front of “Computers require Network Level Authentication to connect (recommended)”. We continue the warning by saying, “Proceed anyway”.
+
+
+Now we can connect to the server with Microsoft’s own remote desktop software.
+
 ### Conclusion:
 
 In this article, we Learn how to create a Virtual Machine and create windows 10 instances on that, which will be accessible on Local Machine. It is recommended to create Firewall and allow only specific IPs to get access to the Virtual Machine and don’t share your ssh private key with anyone else.
